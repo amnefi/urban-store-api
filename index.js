@@ -4,17 +4,17 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // Usar variable de entorno para producción
 
 // Cargar productos desde el archivo JSON
 const productosPath = path.join(__dirname, 'productos.json');
-let productos = require(productosPath) || {}; // Evita errores si el JSON está vacío
+let productos = fs.existsSync(productosPath) ? require(productosPath) : { ropa: [], calzado: [], accesorios: [] };
 
 app.use(cors());
 app.use(express.json());
 
 // Servir la carpeta de imágenes
-app.use('/api/images', express.static('public/images'));
+app.use('/api/images', express.static(path.join(__dirname, 'public/images')));
 
 // Función para guardar cambios en productos.json
 const guardarProductos = () => {
@@ -22,33 +22,38 @@ const guardarProductos = () => {
 };
 
 // Endpoints individuales por categoría
-app.get('/api/ropa', (req, res) => res.json(productos.ropa || []));
-app.get('/api/calzado', (req, res) => res.json(productos.calzado || []));
-app.get('/api/accesorios', (req, res) => res.json(productos.accesorios || []));
+app.get('/api/ropa', (req, res) => res.json(productos.ropa));
+app.get('/api/calzado', (req, res) => res.json(productos.calzado));
+app.get('/api/accesorios', (req, res) => res.json(productos.accesorios));
 
 // Obtener todos los productos con su categoría
 app.get('/api/productos', (req, res) => {
-  const todasLasCategorias = Object.keys(productos);
-  const todosLosProductos = todasLasCategorias.flatMap(categoria =>
-    (productos[categoria] || []).map(item => ({ ...item, categoria }))
+  const todosLosProductos = Object.entries(productos).flatMap(([categoria, items]) =>
+    items.map(item => ({ ...item, categoria }))
   );
   res.json(todosLosProductos);
 });
 
 // Agregar un nuevo producto
 app.post('/api/productos', (req, res) => {
-  const { categoria, ...nuevoProducto } = req.body;
+  const { categoria, nombre, precio, marca, imagen } = req.body;
 
   if (!productos[categoria]) {
     return res.status(400).json({ error: 'Categoría no válida' });
   }
 
-  // Verificar que los campos principales existen
-  if (!nuevoProducto.nombre || !nuevoProducto.precio || !nuevoProducto.marca) {
-    return res.status(400).json({ error: 'Faltan datos obligatorios (nombre, precio, marca)' });
+  if (!nombre || !precio || !marca || !imagen) {
+    return res.status(400).json({ error: 'Faltan datos obligatorios (nombre, precio, marca, imagen)' });
   }
 
-  nuevoProducto.id = Date.now(); // ID único
+  const nuevoProducto = {
+    id: Date.now(),
+    nombre,
+    precio,
+    marca,
+    imagen
+  };
+
   productos[categoria].push(nuevoProducto);
   guardarProductos();
 
@@ -58,12 +63,13 @@ app.post('/api/productos', (req, res) => {
 // Eliminar un producto
 app.delete('/api/productos/:categoria/:id', (req, res) => {
   const { categoria, id } = req.params;
+  const idNumerico = parseInt(id, 10);
 
   if (!productos[categoria]) {
     return res.status(400).json({ error: 'Categoría no válida' });
   }
 
-  const indice = productos[categoria].findIndex(item => item.id === parseInt(id, 10));
+  const indice = productos[categoria].findIndex(item => item.id === idNumerico);
   if (indice === -1) {
     return res.status(404).json({ error: 'Producto no encontrado' });
   }
@@ -77,13 +83,14 @@ app.delete('/api/productos/:categoria/:id', (req, res) => {
 // Actualizar un producto
 app.put('/api/productos/:categoria/:id', (req, res) => {
   const { categoria, id } = req.params;
-  const { categoria: _, ...datosActualizados } = req.body;
+  const idNumerico = parseInt(id, 10);
+  const datosActualizados = req.body;
 
   if (!productos[categoria]) {
     return res.status(400).json({ error: 'Categoría no válida' });
   }
 
-  const indice = productos[categoria].findIndex(item => item.id === parseInt(id, 10));
+  const indice = productos[categoria].findIndex(item => item.id === idNumerico);
   if (indice === -1) {
     return res.status(404).json({ error: 'Producto no encontrado' });
   }
@@ -94,7 +101,7 @@ app.put('/api/productos/:categoria/:id', (req, res) => {
   res.json(productos[categoria][indice]);
 });
 
-// 🔍 Buscar producto por ID dentro de una categoría específica
+// Buscar producto por ID dentro de una categoría específica
 app.get('/api/productos/:categoria/:id', (req, res) => {
   const { categoria, id } = req.params;
   const idNumerico = parseInt(id, 10);
@@ -112,7 +119,7 @@ app.get('/api/productos/:categoria/:id', (req, res) => {
   res.json(producto);
 });
 
-// 🔍 Buscar producto por ID en cualquier categoría
+// Buscar producto por ID en cualquier categoría
 app.get('/api/productos/id/:id', (req, res) => {
   const idNumerico = parseInt(req.params.id, 10);
 
