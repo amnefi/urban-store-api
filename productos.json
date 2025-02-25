@@ -7,10 +7,15 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/woman/faldaMezclilla.webp",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["M", "S"],
+      "tallas": ["M", "S"],
       "color": ["Rojo", "Blanco", "Negro"],
       "subcategoria": "Faldas",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "S": 15,
+        "M": 10,
+        "Única": 2
+      }
     },
     {
       "id": 2,
@@ -19,10 +24,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/woman/cardiganCasual.webp",
       "descripcion": "Tejido suave y transpirable.",
-      "talla": ["M", "Única"],
+      "tallas": ["M", "Única"],
       "color": ["Blanco", "Negro", "Rojo"],
       "subcategoria": "Chompas",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "M": 10,
+        "Única": 2
+      }
     },
     {
       "id": 3,
@@ -31,10 +40,15 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/woman/minifaldaCorteA.webp",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["Única", "S"],
+      "tallas": ["Única", "S"],
       "color": ["Blanco", "Azul", "Negro", "Rojo", "Verde"],
       "subcategoria": "Faldas",
-      "marca": "H&M"
+      "marca": "H&M",
+      "stock": {
+        "S": 15,
+        "M": 10,
+        "Única": 2
+      }
     },
     {
       "id": 4,
@@ -43,10 +57,15 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/woman/joggerUrbano.webp",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["M", "Única"],
+      "tallas": ["M", "Única"],
       "color": ["Rojo", "Verde", "Negro", "Blanco"],
       "subcategoria": "Pantalones",
-      "marca": "H&M"
+      "marca": "H&M",
+      "stock": {
+        "S": 15,
+        "M": 10,
+        "Única": 2
+      }
     },
     {
       "id": 5,
@@ -55,10 +74,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/man/parkaImpermeable.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["Única", "S"],
+      "tallas": ["Única", "S"],
       "color": ["Verde", "Negro", "Blanco", "Rojo"],
       "subcategoria": "Casacas",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "Única": 5,
+        "S": 8
+      }
     },
     {
       "id": 6,
@@ -67,10 +90,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/woman/camisaCasual.jpg",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["S", "Única"],
+      "tallas": ["S", "Única"],
       "color": ["Rojo", "Blanco"],
       "subcategoria": "Camisas",
-      "marca": "Bershka"
+      "marca": "Bershka",
+      "stock": {
+        "S": 12,
+        "Única": 7
+      }
     },
     {
       "id": 7,
@@ -79,10 +106,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/man/poloEstampado.webp",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["M", "L"],
+      "tallas": ["M", "L"],
       "color": ["Azul", "Blanco", "Verde"],
       "subcategoria": "Polos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "M": 20,
+        "L": 15
+      }
     },
     {
       "id": 8,
@@ -91,10 +122,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/adidas/woman/joggerUrbano.avif",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["M", "L"],
+      "tallas": ["M", "L"],
       "color": ["Negro", "Azul", "Blanco", "Verde"],
       "subcategoria": "Pantalones",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "M": 18,
+        "L": 12
+      }
     },
     {
       "id": 9,
@@ -103,10 +138,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/man/chaquetaCuero.webp",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Blanco"],
       "subcategoria": "Casacas",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "L": 10,
+        "Única": 5
+      }
     },
     {
       "id": 10,
@@ -115,10 +154,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/adidas/man/poloDeportivo.avif",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["M", "S"],
+      "tallas": ["M", "S"],
       "color": ["Verde", "Blanco", "Azul", "Negro", "Rojo"],
       "subcategoria": "Polos",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "M": 25,
+        "S": 30
+      }
     },
     {
       "id": 11,
@@ -127,10 +170,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/woman/poloCasual.png",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["M", "Única"],
+      "tallas": ["M", "Única"],
       "color": ["Azul", "Negro", "Rojo", "Blanco"],
       "subcategoria": "Polos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "M": 22,
+        "Única": 10
+      }
     },
     {
       "id": 12,
@@ -139,10 +186,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/puma/woman/vestidoCasual.avif",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["XL", "S"],
+      "tallas": ["XL", "S"],
       "color": ["Azul", "Rojo"],
       "subcategoria": "Vestidos",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "XL": 5,
+        "S": 8
+      }
     },
     {
       "id": 13,
@@ -151,10 +202,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/man/jeanClasico.jpg",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["Única", "L"],
+      "tallas": ["Única", "L"],
       "color": ["Verde", "Negro", "Azul"],
       "subcategoria": "Pantalones",
-      "marca": "Bershka"
+      "marca": "Bershka",
+      "stock": {
+        "Única": 10,
+        "L": 12
+      }
     },
     {
       "id": 14,
@@ -163,10 +218,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/man/joggerUrbano.jpg",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["XL", "Única"],
+      "tallas": ["XL", "Única"],
       "color": ["Verde"],
       "subcategoria": "Pantalones",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "XL": 8,
+        "Única": 5
+      }
     },
     {
       "id": 15,
@@ -175,10 +234,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/man/cardiganCasual.avif",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Negro", "Verde", "Azul"],
       "subcategoria": "Chompas",
-      "marca": "H&M"
+      "marca": "H&M",
+      "stock": {
+        "L": 10,
+        "Única": 7
+      }
     },
     {
       "id": 16,
@@ -187,10 +250,15 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/man/camisaCasual.png",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["L", "M", "S"],
+      "tallas": ["L", "M", "S"],
       "color": ["Azul", "Blanco", "Negro", "Rojo"],
       "subcategoria": "Camisas",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "L": 15,
+        "M": 20,
+        "S": 25
+      }
     },
     {
       "id": 17,
@@ -199,10 +267,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/puma/woman/cardiganCasual.webp",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["M", "S"],
+      "tallas": ["M", "S"],
       "color": ["Rojo", "Verde", "Blanco"],
       "subcategoria": "Chompas",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "M": 10,
+        "S": 15
+      }
     },
     {
       "id": 18,
@@ -211,10 +283,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/man/casacaCuero.jpg",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["L", "XL"],
+      "tallas": ["L", "XL"],
       "color": ["Negro", "Blanco", "Verde", "Rojo", "Azul"],
       "subcategoria": "Casacas",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "L": 10,
+        "XL": 5
+      }
     },
     {
       "id": 19,
@@ -223,10 +299,14 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/man/jeanClasico.jpg",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Verde"],
       "subcategoria": "Pantalones",
-      "marca": "Zara"
+      "marca": "Zara",
+      "stock": {
+        "L": 10,
+        "S": 15
+      }
     },
     {
       "id": 20,
@@ -235,10 +315,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/woman/vestidoFloral.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Blanco", "Rojo", "Azul", "Verde", "Negro"],
       "subcategoria": "Vestidos",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "L": 10,
+        "S": 15
+      }
     },
     {
       "id": 21,
@@ -247,10 +331,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/woman/faldaMidi.png",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["XL", "M"],
+      "tallas": ["XL", "M"],
       "color": ["Blanco", "Negro"],
       "subcategoria": "Faldas",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "XL": 5,
+        "M": 10
+      }
     },
     {
       "id": 22,
@@ -259,10 +347,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/woman/faldaDeportiva.jpg",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["S", "M"],
+      "tallas": ["S", "M"],
       "color": ["Rojo", "Negro", "Verde"],
       "subcategoria": "Faldas",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "S": 15,
+        "M": 10
+      }
     },
     {
       "id": 23,
@@ -271,10 +363,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/levis/woman/vestidoMidi.webp",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["XL", "L"],
+      "tallas": ["XL", "L"],
       "color": ["Negro", "Azul", "Verde", "Blanco", "Rojo"],
       "subcategoria": "Vestidos",
-      "marca": "Levi's"
+      "marca": "Levi's",
+      "stock": {
+        "XL": 5,
+        "L": 10
+      }
     },
     {
       "id": 24,
@@ -283,10 +379,14 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/man/poloDeportivo.avif",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["Única", "S"],
+      "tallas": ["Única", "S"],
       "color": ["Azul", "Negro", "Blanco"],
       "subcategoria": "Polos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "Única": 10,
+        "S": 15
+      }
     },
     {
       "id": 25,
@@ -295,10 +395,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/woman/cardiganCasual.jpg",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["Única", "S"],
+      "tallas": ["Única", "S"],
       "color": ["Rojo", "Verde"],
       "subcategoria": "Chompas",
-      "marca": "Zara"
+      "marca": "Zara",
+      "stock": {
+        "Única": 10,
+        "S": 15
+      }
     },
     {
       "id": 26,
@@ -307,10 +411,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/woman/sueterOversize.avif",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["L", "M"],
+      "tallas": ["L", "M"],
       "color": ["Rojo", "Blanco"],
       "subcategoria": "Chompas",
-      "marca": "H&M"
+      "marca": "H&M",
+      "stock": {
+        "L": 10,
+        "M": 15
+      }
     },
     {
       "id": 27,
@@ -319,10 +427,14 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/puma/man/caffarenaDeportiva.jpg",
       "descripcion": "Tejido suave y transpirable.",
-      "talla": ["M", "L"],
+      "tallas": ["M", "L"],
       "color": ["Rojo", "Azul"],
       "subcategoria": "Camisas",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "M": 10,
+        "L": 15
+      }
     },
     {
       "id": 28,
@@ -331,10 +443,14 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/man/camisaCasual.webp",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["S", "M"],
+      "tallas": ["S", "M"],
       "color": ["Rojo"],
       "subcategoria": "Camisas",
-      "marca": "Zara"
+      "marca": "Zara",
+      "stock": {
+        "S": 10,
+        "M": 15
+      }
     },
     {
       "id": 29,
@@ -343,10 +459,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/woman/vestidoLargo.jpg",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Blanco", "Verde", "Rojo"],
       "subcategoria": "Vestidos",
-      "marca": "Zara"
+      "marca": "Zara",
+      "stock": {
+        "L": 10,
+        "Única": 5
+      }
     },
     {
       "id": 30,
@@ -355,10 +475,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/puma/man/poloAtletico.jpg",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["M", "XL"],
+      "tallas": ["M", "XL"],
       "color": ["Negro", "Blanco"],
       "subcategoria": "Camisas",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "M": 10,
+        "XL": 5
+      }
     },
     {
       "id": 31,
@@ -367,7 +491,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/man/cardiganCasual.avif",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["S", "M"],
+      "tallas": ["S", "M"],
       "color": ["Blanco", "Rojo", "Negro", "Verde"],
       "subcategoria": "Chompas",
       "marca": "H&M"
@@ -379,7 +503,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/man/casacaDeportiva.webp",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["S", "Única"],
+      "tallas": ["S", "Única"],
       "color": ["Azul", "Rojo", "Negro", "Verde", "Blanco"],
       "subcategoria": "Casacas",
       "marca": "H&M"
@@ -391,7 +515,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/woman/joggerUrbano.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["XL", "Única"],
+      "tallas": ["XL", "Única"],
       "color": ["Blanco"],
       "subcategoria": "Pantalones",
       "marca": "Nike"
@@ -403,7 +527,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/nike/man/chaquetaCuero.webp",
       "descripcion": "Tejido suave y transpirable.",
-      "talla": ["L", "XL"],
+      "tallas": ["L", "XL"],
       "color": ["Negro", "Blanco"],
       "subcategoria": "Casacas",
       "marca": "Nike"
@@ -415,7 +539,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/woman/faldaMidi.jpg",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Azul"],
       "subcategoria": "Faldas",
       "marca": "Bershka"
@@ -427,7 +551,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/woman/faldaMezclilla.webp",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Azul", "Verde", "Negro", "Rojo"],
       "subcategoria": "Faldas",
       "marca": "H&M"
@@ -439,7 +563,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/adidas/man/casacaCuero.avif",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["XL", "M"],
+      "tallas": ["XL", "M"],
       "color": ["Verde", "Azul", "Negro", "Rojo"],
       "subcategoria": "Casacas",
       "marca": "Adidas"
@@ -451,7 +575,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/adidas/woman/vestidoCasual.avif",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["M", "S"],
+      "tallas": ["M", "S"],
       "color": ["Verde", "Azul"],
       "subcategoria": "Vestidos",
       "marca": "Adidas"
@@ -463,7 +587,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/man/casacaDeportiva.jpg",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["S", "L"],
+      "tallas": ["S", "L"],
       "color": ["Azul", "Verde", "Rojo", "Blanco", "Negro"],
       "subcategoria": "Casacas",
       "marca": "Zara"
@@ -475,7 +599,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/man/pantalonCargo.jpg",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["M", "Única"],
+      "tallas": ["M", "Única"],
       "color": ["Blanco", "Verde", "Azul"],
       "subcategoria": "Pantalones",
       "marca": "Zara"
@@ -487,7 +611,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/zara/woman/chompaTejida.jpg",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Rojo", "Blanco"],
       "subcategoria": "Chompas",
       "marca": "Zara"
@@ -499,7 +623,7 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/woman/poloBasico.jpg",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["M", "XL"],
+      "tallas": ["M", "XL"],
       "color": ["Blanco"],
       "subcategoria": "Polos",
       "marca": "Bershka"
@@ -511,7 +635,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/h&m/man/poloDeportivo.webp",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["L", "Única"],
+      "tallas": ["L", "Única"],
       "color": ["Verde", "Blanco", "Azul", "Rojo"],
       "subcategoria": "Polos",
       "marca": "H&M"
@@ -523,7 +647,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/puma/man/pantalonCargo.avif",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Azul", "Blanco", "Rojo", "Negro", "Verde"],
       "subcategoria": "Pantalones",
       "marca": "Puma"
@@ -535,7 +659,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/man/jeanBaggy.jpg",
       "descripcion": "Pantalón jean con ajuste perfecto y gran flexibilidad.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Azul", "Blanco", "Rojo", "Negro", "Verde"],
       "subcategoria": "Pantalones",
       "marca": "Bershka"
@@ -547,7 +671,7 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/ropa/bershka/man/sudaderaCars.jpg",
       "descripcion": "Sudadera con estampado del rayo McQuen, ajustable y estético.",
-      "talla": ["L", "S"],
+      "tallas": ["L", "S"],
       "color": ["Azul", "Blanco", "Rojo", "Negro", "Verde"],
       "subcategoria": "Casacas",
       "marca": "Bershka"
@@ -561,10 +685,18 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/nike/man/sandaliaPlayera.webp",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["M", "S"],
+      "tallas": ["37", "38", "39", "40", "41", "42"],
       "color": ["Blanco", "Negro", "Verde", "Rojo", "Azul"],
       "subcategoria": "Sandalias",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35
+      }
     },
     {
       "id": 2,
@@ -573,10 +705,15 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/timberland/man/botaCuero.webp",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["XL", "M"],
+      "tallas": ["38", "40", "42"],
       "color": ["Verde", "Blanco", "Negro", "Azul", "Rojo"],
       "subcategoria": "Botas",
-      "marca": "Timberland"
+      "marca": "Timberland",
+      "stock": {
+        "38": 10,
+        "40": 15,
+        "42": 20
+      }
     },
     {
       "id": 3,
@@ -585,10 +722,19 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/nike/man/zapatillasUrbanas.png",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["M", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Azul", "Verde"],
       "subcategoria": "Zapatos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 4,
@@ -597,10 +743,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/reebok/woman/botinesReebok.avif",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["XL", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Verde", "Rojo", "Blanco", "Negro"],
       "subcategoria": "Botas",
-      "marca": "Reebok"
+      "marca": "Reebok",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 5,
@@ -609,10 +764,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/adidas/man/zapatillasUrbanas.avif",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["S", "L"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro"],
       "subcategoria": "Zapatos",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 6,
@@ -621,10 +785,19 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/adidas/man/sandaliaPlayera.webp",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["L", "M"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Azul", "Negro"],
       "subcategoria": "Sandalias",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 7,
@@ -633,10 +806,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/reebok/woman/sandaliaUrbana.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["XL", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro"],
       "subcategoria": "Sandalias",
-      "marca": "Reebok"
+      "marca": "Reebok",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 8,
@@ -645,10 +827,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/puma/man/mocasinesCuero.avif",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["L", "XL"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Blanco", "Verde"],
       "subcategoria": "Zapatos",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 9,
@@ -657,10 +848,14 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/puma/woman/mocasinesCuero.avif",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["M", "Única"],
+      "tallas": ["M", "Única"],
       "color": ["Rojo", "Azul"],
       "subcategoria": "Zapatos",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "M": 10,
+        "Única": 5
+      }
     },
     {
       "id": 10,
@@ -669,10 +864,19 @@
       "genero": "Unisex",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/puma/woman/sandaliasPlaya.webp",
       "descripcion": "Ligero, elegante y fácil de combinar.",
-      "talla": ["L", "S"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro", "Blanco"],
       "subcategoria": "Sandalias",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 11,
@@ -681,10 +885,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/puma/man/zapatillasUrbanas.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["XL", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro", "Rojo"],
       "subcategoria": "Zapatos",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 12,
@@ -693,10 +906,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/reebok/man/zapatillasDeportivas.webp",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["M", "S"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro", "Blanco", "Rojo", "Verde"],
       "subcategoria": "Zapatillas",
-      "marca": "Reebok"
+      "marca": "Reebok",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 13,
@@ -705,10 +927,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/reebok/woman/zapatillasDeportivas.webp",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["M", "L"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Blanco", "Negro"],
       "subcategoria": "Zapatos",
-      "marca": "Reebok"
+      "marca": "Reebok",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 14,
@@ -717,10 +948,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/timberland/woman/botaCuero.jpg",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["Única", "L"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Rojo"],
       "subcategoria": "Botas",
-      "marca": "Timberland"
+      "marca": "Timberland",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 15,
@@ -729,10 +969,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/puma/man/sandaliasUrbana.webp",
       "descripcion": "Ajuste perfecto y gran flexibilidad.",
-      "talla": ["M", "S"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Azul"],
       "subcategoria": "Sandalias",
-      "marca": "Puma"
+      "marca": "Puma",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 16,
@@ -741,10 +990,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/adidas/man/zapatillasTaekwond.avif",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["S", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Rojo", "Azul", "Blanco", "Negro"],
       "subcategoria": "Zapatos",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 17,
@@ -753,10 +1011,19 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/nike/man/zapatillasWTC.webp",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["XL", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Rojo", "Negro", "Azul", "Blanco", "Verde"],
       "subcategoria": "Zapatos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 18,
@@ -765,10 +1032,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/nike/woman/zapatillasDeportivas.webp",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["S", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Verde", "Azul", "Rojo", "Negro"],
       "subcategoria": "Zapatos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 19,
@@ -777,10 +1053,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/nike/woman/zapatillasUrbanas.webp",
       "descripcion": "Tejido suave y transpirable.",
-      "talla": ["M", "XL"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Negro", "Verde", "Azul", "Blanco"],
       "subcategoria": "Zapatos",
-      "marca": "Nike"
+      "marca": "Nike",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 20,
@@ -789,10 +1074,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/adidas/woman/zapatillasTerrex.avif",
       "descripcion": "Estilo urbano con un toque sofisticado.",
-      "talla": ["L", "S"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Rojo", "Verde", "Negro", "Azul", "Blanco"],
       "subcategoria": "Zapatos",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     },
     {
       "id": 21,
@@ -801,10 +1095,19 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/calzado/adidas/woman/zapatillasTokyo.avif",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["L", "Única"],
+      "tallas": ["37", "38", "39", "40", "41", "42", "44"],
       "color": ["Rojo"],
       "subcategoria": "Zapatos",
-      "marca": "Adidas"
+      "marca": "Adidas",
+      "stock": {
+        "37": 10,
+        "38": 15,
+        "39": 20,
+        "40": 25,
+        "41": 30,
+        "42": 35,
+        "44": 40
+      }
     }
   ],
   "accesorios": [
@@ -815,10 +1118,13 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/ray-ban/woman/gorraCasual.webp",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["Única", "S"],
+      "tallas": ["Única"],
       "color": ["Blanco", "Verde", "Negro", "Rojo"],
       "subcategoria": "Gorras",
-      "marca": "Ray-Ban"
+      "marca": "Ray-Ban",
+      "stock": {
+        "Única": 20
+      }
     },
     {
       "id": 2,
@@ -827,10 +1133,13 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/fossil/man/relojDeportivo.webp",
       "descripcion": "Tejido suave y transpirable.",
-      "talla": ["XL", "L"],
+      "tallas": ["Única"],
       "color": ["Rojo", "Blanco", "Verde", "Negro"],
       "subcategoria": "Relojes",
-      "marca": "Fossil"
+      "marca": "Fossil",
+      "stock": {
+        "Única": 15
+      }
     },
     {
       "id": 3,
@@ -839,10 +1148,13 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/fossil/woman/gorraPlana.jpg",
       "descripcion": "Material resistente y de excelente acabado.",
-      "talla": ["S", "Única"],
+      "tallas": ["Única"],
       "color": ["Azul", "Verde", "Rojo", "Blanco"],
       "subcategoria": "Gorras",
-      "marca": "Fossil"
+      "marca": "Fossil",
+      "stock": {
+        "Única": 10
+      }
     },
     {
       "id": 4,
@@ -851,10 +1163,13 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/ray-ban/man/sombreroPaja.webp",
       "descripcion": "Diseñado para ofrecer comodidad todo el día.",
-      "talla": ["S", "M"],
+      "tallas": ["Única"],
       "color": ["Blanco", "Negro"],
       "subcategoria": "Sombreros",
-      "marca": "Ray-Ban"
+      "marca": "Ray-Ban",
+      "stock": {
+        "Única": 12
+      }
     },
     {
       "id": 5,
@@ -863,10 +1178,13 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/casio/man/relojElegante.webp",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["XL", "M"],
+      "tallas": ["Única"],
       "color": ["Azul", "Rojo", "Negro", "Blanco"],
       "subcategoria": "Relojes",
-      "marca": "Casio"
+      "marca": "Casio",
+      "stock": {
+        "Única": 18
+      }
     },
     {
       "id": 6,
@@ -875,10 +1193,13 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/ray-ban/woman/sombreroPanama.jpg",
       "descripcion": "Diseño moderno con detalles exclusivos.",
-      "talla": ["L", "M"],
+      "tallas": ["Única"],
       "color": ["Rojo"],
       "subcategoria": "Sombreros",
-      "marca": "Ray-Ban"
+      "marca": "Ray-Ban",
+      "stock": {
+        "Única": 8
+      }
     },
     {
       "id": 7,
@@ -887,10 +1208,13 @@
       "genero": "Hombre",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/tommy-hilfiger/man/relojAnalogico.webp",
       "descripcion": "Perfecto para cualquier ocasión casual o formal.",
-      "talla": ["L", "Única"],
+      "tallas": ["Única"],
       "color": ["Verde", "Rojo", "Azul"],
       "subcategoria": "Relojes",
-      "marca": "Tommy Hilfiger"
+      "marca": "Tommy Hilfiger",
+      "stock": {
+        "Única": 20
+      }
     },
     {
       "id": 8,
@@ -899,10 +1223,13 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/tommy-hilfiger/woman/carteraCasual.webp",
       "descripcion": "Ideal para climas cálidos y fríos.",
-      "talla": ["L", "S"],
+      "tallas": ["Única"],
       "color": ["Azul", "Verde", "Blanco", "Rojo", "Negro"],
       "subcategoria": "Billeteras",
-      "marca": "Tommy Hilfiger"
+      "marca": "Tommy Hilfiger",
+      "stock": {
+        "Única": 25
+      }
     },
     {
       "id": 9,
@@ -911,10 +1238,13 @@
       "genero": "Mujer",
       "imagen": "https://urban-store-api.onrender.com/api/images/accesorios/casio/woman/relojDeportivo.avif",
       "descripcion": "Producto de alta calidad y durabilidad.",
-      "talla": ["S", "M"],
+      "tallas": ["Única"],
       "color": ["Blanco", "Negro", "Verde", "Azul", "Rojo"],
       "subcategoria": "Relojes",
-      "marca": "Casio"
+      "marca": "Casio",
+      "stock": {
+        "Única": 15
+      }
     }
   ]
 }
